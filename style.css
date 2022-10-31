@@ -128,25 +128,27 @@ background-color: white;
 .grid-child > a {  
  color:#FF4763;
 }
+
 .grid-container  {  
-display: grid;
-border-style: dotted;
-grid-template-columns: 33.3% 33.3% 33.3%;
-font-size: 40px;
-font-family: "Josefin Sans";
-margin:30px; 
-text-align: center;
-
-
-
+    display: grid;
+    border-style: dotted;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    font-size: 40px;
+    font-family: "Josefin Sans";
+    margin:30px; 
+    text-align: center;
 }
+
+
+
 
 #list1 { 
     margin-top: 0px;
     margin-bottom: 50px;
-text-align: center;
-font-size: 50px;
-font-family: "Quicksand"}
+    text-align: center;
+    font-size: 50px;
+    font-family: "Quicksand"
+}
 
 
 
@@ -394,18 +396,26 @@ padding:0;
 /*footer*/
 
 
-#aboutfooter
-{  width: 50%;
+#aboutfooter {  
+    width: 50%;
     margin: auto;
 }
 
-footer
-{ text-align: center;
-color: black;
-text-shadow: 2px 2px 2px white;
-font-family: "Quicksand";
-font-size: 20px;
-margin-top:600px;
+footer { 
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-family: "Quicksand";
+    font-size: 20px;
+    margin-top:600px;
+}
     
+    
+    
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 100%;
+    }
+}    
 
 
